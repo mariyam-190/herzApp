@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA1552F12B2D26CF002BBF12 /* SubhaScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1552F02B2D26CF002BBF12 /* SubhaScreen.swift */; };
 		EA2399FA2B29E3CB00D447DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2399F92B29E3CB00D447DE /* AppDelegate.swift */; };
 		EA2399FC2B29E3CB00D447DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2399FB2B29E3CB00D447DE /* SceneDelegate.swift */; };
 		EA2399FE2B29E3CB00D447DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2399FD2B29E3CB00D447DE /* ViewController.swift */; };
 		EA239A012B29E3CB00D447DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2399FF2B29E3CB00D447DE /* Main.storyboard */; };
 		EA239A032B29E3CB00D447DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA239A022B29E3CB00D447DE /* Assets.xcassets */; };
 		EA239A062B29E3CB00D447DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA239A042B29E3CB00D447DE /* LaunchScreen.storyboard */; };
+		EA239A112B29EEEA00D447DE /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA239A102B29EEEA00D447DE /* click.mp3 */; };
+		EA2B48F82B2B1BCC00CA1741 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B48F72B2B1BCC00CA1741 /* CustomColors.swift */; };
+		EA2B48FA2B2B26DF00CA1741 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2B48F92B2B26DF00CA1741 /* MainScreen.swift */; };
+		EA3C16D82B2E4C10004FD32F /* AzkarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C16D72B2E4C10004FD32F /* AzkarView.swift */; };
+		EA9140C02B35E780008CEB90 /* MorningScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9140BF2B35E780008CEB90 /* MorningScreen.swift */; };
+		EA9140C22B3603DA008CEB90 /* EveningScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9140C12B3603DA008CEB90 /* EveningScreen.swift */; };
+		EA9140C42B3605FD008CEB90 /* SleepScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9140C32B3605FD008CEB90 /* SleepScreen.swift */; };
+		EA9140C62B360978008CEB90 /* AfterPrayerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9140C52B360978008CEB90 /* AfterPrayerScreen.swift */; };
+		EA96C52A2B324F430018F077 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA96C5292B324F430018F077 /* SplashScreen.swift */; };
+		EA96C52C2B324FFF0018F077 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA96C52B2B324FFF0018F077 /* ContentView.swift */; };
+		EABA06932B36E51400973842 /* AA-GALAXY.otf in Resources */ = {isa = PBXBuildFile; fileRef = EABA06922B36E51400973842 /* AA-GALAXY.otf */; };
+		EAEC63362B2DC60B009E0E78 /* AzkarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC63352B2DC60B009E0E78 /* AzkarModel.swift */; };
+		EAEC63382B2E3C91009E0E78 /* Content-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEC63372B2E3C91009E0E78 /* Content-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA1552F02B2D26CF002BBF12 /* SubhaScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubhaScreen.swift; sourceTree = "<group>"; };
 		EA2399F62B29E3CB00D447DE /* herzApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = herzApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2399F92B29E3CB00D447DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA2399FB2B29E3CB00D447DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,19 @@
 		EA239A022B29E3CB00D447DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA239A052B29E3CB00D447DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA239A072B29E3CB00D447DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA239A102B29EEEA00D447DE /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+		EA2B48F72B2B1BCC00CA1741 /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		EA2B48F92B2B26DF00CA1741 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		EA3C16D72B2E4C10004FD32F /* AzkarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkarView.swift; sourceTree = "<group>"; };
+		EA9140BF2B35E780008CEB90 /* MorningScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningScreen.swift; sourceTree = "<group>"; };
+		EA9140C12B3603DA008CEB90 /* EveningScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveningScreen.swift; sourceTree = "<group>"; };
+		EA9140C32B3605FD008CEB90 /* SleepScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepScreen.swift; sourceTree = "<group>"; };
+		EA9140C52B360978008CEB90 /* AfterPrayerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterPrayerScreen.swift; sourceTree = "<group>"; };
+		EA96C5292B324F430018F077 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		EA96C52B2B324FFF0018F077 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EABA06922B36E51400973842 /* AA-GALAXY.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AA-GALAXY.otf"; path = "../../../../Downloads/AA-GALAXY.otf"; sourceTree = "<group>"; };
+		EAEC63352B2DC60B009E0E78 /* AzkarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkarModel.swift; sourceTree = "<group>"; };
+		EAEC63372B2E3C91009E0E78 /* Content-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Content-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA1552F22B2D2DA3002BBF12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EAEC63352B2DC60B009E0E78 /* AzkarModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		EA2399ED2B29E3CB00D447DE = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +92,45 @@
 		EA2399F82B29E3CB00D447DE /* herzApp */ = {
 			isa = PBXGroup;
 			children = (
+				EABA06902B36E4BF00973842 /* font */,
+				EA1552F22B2D2DA3002BBF12 /* Models */,
+				EA239A0F2B29EEB700D447DE /* Sounds */,
 				EA2399F92B29E3CB00D447DE /* AppDelegate.swift */,
 				EA2399FB2B29E3CB00D447DE /* SceneDelegate.swift */,
+				EA96C5292B324F430018F077 /* SplashScreen.swift */,
+				EA96C52B2B324FFF0018F077 /* ContentView.swift */,
 				EA2399FD2B29E3CB00D447DE /* ViewController.swift */,
 				EA2399FF2B29E3CB00D447DE /* Main.storyboard */,
 				EA239A022B29E3CB00D447DE /* Assets.xcassets */,
 				EA239A042B29E3CB00D447DE /* LaunchScreen.storyboard */,
 				EA239A072B29E3CB00D447DE /* Info.plist */,
+				EA2B48F72B2B1BCC00CA1741 /* CustomColors.swift */,
+				EA2B48F92B2B26DF00CA1741 /* MainScreen.swift */,
+				EA9140BF2B35E780008CEB90 /* MorningScreen.swift */,
+				EA1552F02B2D26CF002BBF12 /* SubhaScreen.swift */,
+				EAEC63372B2E3C91009E0E78 /* Content-ViewModel.swift */,
+				EA3C16D72B2E4C10004FD32F /* AzkarView.swift */,
+				EA9140C12B3603DA008CEB90 /* EveningScreen.swift */,
+				EA9140C32B3605FD008CEB90 /* SleepScreen.swift */,
+				EA9140C52B360978008CEB90 /* AfterPrayerScreen.swift */,
 			);
 			path = herzApp;
+			sourceTree = "<group>";
+		};
+		EA239A0F2B29EEB700D447DE /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EA239A102B29EEEA00D447DE /* click.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		EABA06902B36E4BF00973842 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				EABA06922B36E51400973842 /* AA-GALAXY.otf */,
+			);
+			path = font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +192,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA239A062B29E3CB00D447DE /* LaunchScreen.storyboard in Resources */,
+				EA239A112B29EEEA00D447DE /* click.mp3 in Resources */,
 				EA239A032B29E3CB00D447DE /* Assets.xcassets in Resources */,
 				EA239A012B29E3CB00D447DE /* Main.storyboard in Resources */,
+				EABA06932B36E51400973842 /* AA-GALAXY.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +206,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9140C02B35E780008CEB90 /* MorningScreen.swift in Sources */,
+				EA3C16D82B2E4C10004FD32F /* AzkarView.swift in Sources */,
+				EA2B48FA2B2B26DF00CA1741 /* MainScreen.swift in Sources */,
+				EA96C52C2B324FFF0018F077 /* ContentView.swift in Sources */,
 				EA2399FE2B29E3CB00D447DE /* ViewController.swift in Sources */,
+				EAEC63362B2DC60B009E0E78 /* AzkarModel.swift in Sources */,
+				EA2B48F82B2B1BCC00CA1741 /* CustomColors.swift in Sources */,
+				EA9140C62B360978008CEB90 /* AfterPrayerScreen.swift in Sources */,
+				EA9140C42B3605FD008CEB90 /* SleepScreen.swift in Sources */,
+				EA96C52A2B324F430018F077 /* SplashScreen.swift in Sources */,
+				EAEC63382B2E3C91009E0E78 /* Content-ViewModel.swift in Sources */,
 				EA2399FA2B29E3CB00D447DE /* AppDelegate.swift in Sources */,
 				EA2399FC2B29E3CB00D447DE /* SceneDelegate.swift in Sources */,
+				EA1552F12B2D26CF002BBF12 /* SubhaScreen.swift in Sources */,
+				EA9140C22B3603DA008CEB90 /* EveningScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

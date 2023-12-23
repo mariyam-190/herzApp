@@ -46,5 +46,5 @@ struct SplashScreen: View {
                
 
 #Preview {
-    SplashScreen()
+    MainScreen()
 }

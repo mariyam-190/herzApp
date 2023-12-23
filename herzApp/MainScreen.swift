@@ -8,11 +8,37 @@
 import SwiftUI
 
 struct MainScreen: View {
+
+       
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            TabView{
+                
+                    AzkarView()
+                        .tabItem {
+                            Label("الأذكار", systemImage: "book.fill")
+
+                        }
+
+                SubhaScreen()
+                        .tabItem {
+                            Label("السبحة", systemImage: "circle.hexagonpath")
+                        }
+               
+            }.accentColor(.DGray)
+            }.onAppear(){
+                UITabBar.appearance().backgroundColor = .white
+                
+            }
     }
 }
 
-#Preview {
-    MainScreen()
+struct MainView_Previews: PreviewProvider {
+    static var previews: some View {
+        MainScreen().environment(\.layoutDirection, .rightToLeft)
+//            .environmentObject(SwiftUIView())
+    }
 }
+
+
+
