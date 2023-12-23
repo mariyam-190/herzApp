@@ -35,8 +35,10 @@ struct SubhaScreen: View {
                 Color.SBlue
                     .ignoresSafeArea()
                 VStack{
-                    Text(" (  وَفِي ذَٰلِكَ فَلْيَتَنَافَسِ الْمُتَنَافِسُون َ)"
-                    ).font(.custom("AA-GALAXY",size: 26)).padding(.bottom,5)
+                    Text(" (  وَفِي ذَٰلِكَ فَلْيَتَنَافَسِ الْمُتَنَافِسُون )"
+                    ).font(.custom("AA-GALAXY",size: 26))
+                        .foregroundColor(.DBlue)
+                        .padding(.bottom,5)
                     Text("سورة المطففين - آية ٢٦").font(.custom("AA-GALAXY",size: 16)).padding(.bottom,30)
 //                    Image("s")
 //                        .resizable()

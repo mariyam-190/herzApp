@@ -36,8 +36,10 @@ struct MorningScreen: View {
                         .padding()
                     Text("اذكار الصباح")
                         .font(.custom("AA-GALAXY",size: 32))
-                    JustifiedText("\(currentText)")
+                    Text("\(currentText)")
                         .bold()
+                        .font(Font.system(size:20))
+                        .multilineTextAlignment(.center)
                         .padding()
                         .frame(width: 340,height: 280)
                         .background(.white)
@@ -170,26 +172,26 @@ struct MorningScreen: View {
 //            countdown = 100
 //        }
 //    }
-    struct JustifiedText: UIViewRepresentable {
-      private let text: String
-      private let font: UIFont
-
-      init(_ text: String, font: UIFont = .systemFont(ofSize: 22)) {
-        self.text = text
-        self.font = font
-      }
-
-      func makeUIView(context: Context) -> UITextView {
-        let textView = UITextView()
-        textView.font = font
-        textView.textAlignment = .justified
-        return textView
-      }
-
-      func updateUIView(_ uiView: UITextView, context: Context) {
-          uiView.text = text
-      }
-    }
+//    struct JustifiedText: UIViewRepresentable {
+//      private let text: String
+//      private let font: UIFont
+//
+//      init(_ text: String, font: UIFont = .systemFont(ofSize: 22)) {
+//        self.text = text
+//        self.font = font
+//      }
+//
+//      func makeUIView(context: Context) -> UITextView {
+//        let textView = UITextView()
+//        textView.font = font
+//        textView.textAlignment = .justified
+//        return textView
+//      }
+//
+//      func updateUIView(_ uiView: UITextView, context: Context) {
+//          uiView.text = text
+//      }
+//    }
 
     
     }
